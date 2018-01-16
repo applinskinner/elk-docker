@@ -1,4 +1,4 @@
-FROM sebp/elk
+FROM sebp/elkx
 
 WORKDIR ${LOGSTASH_HOME}
 ADD 90-kv-filter.conf /etc/logstash/conf.d/90-kv-filter.conf
